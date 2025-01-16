@@ -10,11 +10,21 @@ let lettera = "A";
 
 function matchFirstLetter (arr, lett, res) {
     
+    for (let i = 0; i < arr.length; i++) {
+        
+        if (arr[i].charAt(0) == lett) {
+            res.push(arr[i])
+        }
+    }
+
+    return res;
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
+matchFirstLetter(names, lettera, paroleFinali);
 
+console.log(paroleFinali);
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
