@@ -1,3 +1,5 @@
+// start bonus
+
 /* Scrivi una funzione che accetti una stringa contenente un nome e restituisca un saluto seguito dal nome fornito. 
 Il saluto deve essere :
 buongiorno se è mattina (fino alle 13), 
