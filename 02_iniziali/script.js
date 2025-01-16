@@ -7,6 +7,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function estraiIniziali (arr) {
+    for (let i = 0; i < arr.length; i++) {
+
+    }
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
