@@ -8,9 +8,14 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
+let ora = 18;
 
 
 // Dichiara la funzione qui.
+
+let salutoOrario = (nome) => {
+    
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
