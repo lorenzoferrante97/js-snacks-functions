@@ -10,6 +10,9 @@ let vocaliEstratte = [];
 
 function estraiVocali (par, count, res) {
 
+    for (let i = 0; i < par.length; i++) {
+        
+    }
 }
 
 
