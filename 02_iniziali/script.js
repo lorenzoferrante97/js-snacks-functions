@@ -7,15 +7,20 @@ let iniziali = [];
 
 // Dichiara la funzione qui.
 
-function estraiIniziali (arr) {
-    for (let i = 0; i < arr.length; i++) {
+function estraiIniziali (arr, arrIniz) {
 
+    for (let i = 0; i < arr.length; i++) {
+        arrIniz.push(arr[i].charAt(0));
     }
+
+    return arr;
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
+estraiIniziali(names, iniziali);
 
+console.log(iniziali)
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
